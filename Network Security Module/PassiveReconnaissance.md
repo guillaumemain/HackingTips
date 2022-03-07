@@ -39,3 +39,10 @@ nslookup: find IP address of domain name
 
     dig @server domain type
      
+ ----------
+ ### Find subdomains and other info
+ 
+[DNSDumpster](https://dnsdumpster.com/)
+ 
+[Shodan.io](https://www.shodan.io/)
+
