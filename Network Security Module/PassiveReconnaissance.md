@@ -1,4 +1,4 @@
-Passive reconnaissance: rely on puclicly available knowledge
+##Passive reconnaissance: rely on puclicly available knowledge
 
 *whois*: query WHOIS servers
 
@@ -7,7 +7,7 @@ Passive reconnaissance: rely on puclicly available knowledge
 *dig*: query DNS servers
 
 -----------
-WHOIS
+###WHOIS
 
 A WHOIS server listens on port 43 for incoming requests.
 
@@ -16,7 +16,7 @@ A WHOIS server listens on port 43 for incoming requests.
 
 
 -----------
-**nslookup and dig
+###nslookup and dig
 
 nslookup: find IP address of domain name
 
