@@ -11,6 +11,8 @@
 
 A WHOIS server listens on port 43 for incoming requests.
 
+    whois domain
+
 *whois*: get regsitrar, DNS, ....
 
 
