@@ -5,6 +5,8 @@ The browser connects to:
 * TCP port 443 for HTTPS
 
 
+
+----------------
 ### traceroute
     
     traceroute MACHINE_IP
@@ -16,6 +18,9 @@ Answer of the form:
     1 first_router time_of_reponse first_router_prime time_of_reponse ....
     2 second_router ....
 
+
+
+----------------
 ### telnet
 
 Default port: 23
@@ -34,5 +39,6 @@ Then input:
 Answer includes type and version of the install web server
 
 
+----------------
 ### netcat
 
