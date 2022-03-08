@@ -70,4 +70,3 @@ NB. Port numbers less than 1024 require root privileges to listen on.
 * traceroute: map the path to the target
 * ping: check if the target system responds to ICMP echo
 * telnet: check which ports are open and reachable by tempting to connect to them
-* 
