@@ -22,9 +22,39 @@ NB. To differentiate singles(=inlines) from staged exploits:
 ### msfconsole
 
     use module_path
-    show options
     show payloads
     back
     info
     search [type:module_type] module_name   // module_type = auxiliary ....
     use search_result_number
+    show options
+    set PARAMETER_NAME VALUE
+
+
+### common parameters
+
+* RHOSTS: remote host (single IP or network range)
+* RPORT: remote port
+* PAYLOAD: localhost (attacking machine IP address)
+* LPORT: local port you will use for the reverse shell to connect back to
+* SESSION: each connection established to the target system using Metasploit will have a session ID. You will use this with post-exploitation modules that will connect to the target system using an existing connection.
+
+    unset PARAMETER_NAME   // clear one parameter value
+    unset all   // clear everything
+    setg PARAMETER_NAME VALUE   // globally set
+    unsetg PARAMETER_NAME
+    
+    exploit    // "run" also works
+        -z     // background the session as soon as it opens
+        
+    background   // or CTRL+Z to background the session
+    sessions     // list of existing sessions
+    
+    session -i SESSION_ID    // get back to the session
+    
+
+
+
+
+
+
