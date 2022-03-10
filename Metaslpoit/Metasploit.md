@@ -21,10 +21,10 @@ NB. To differentiate singles(=inlines) from staged exploits:
 -------------
 ### msfconsole
 
-  use module_path
-  show options
-  show payloads
-  back
-  info
-  search [type:module_type] module_name   // module_type = auxiliary ....
-  use search_result_number
+    use module_path
+    show options
+    show payloads
+    back
+    info
+    search [type:module_type] module_name   // module_type = auxiliary ....
+    use search_result_number
