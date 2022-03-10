@@ -39,14 +39,18 @@ NB. To differentiate singles(=inlines) from staged exploits:
 * LPORT: local port you will use for the reverse shell to connect back to
 * SESSION: each connection established to the target system using Metasploit will have a session ID. You will use this with post-exploitation modules that will connect to the target system using an existing connection.
 
+set parameters and run the exploit:
+
     unset PARAMETER_NAME   // clear one parameter value
+    
     unset all   // clear everything
+    
     setg PARAMETER_NAME VALUE   // globally set
+    
     unsetg PARAMETER_NAME
     
-    exploit    // "run" also works
-        -z     // background the session as soon as it opens
-        
+    exploit    // "run" also works (-z option to background the session as soon as it opens)
+   
     background   // or CTRL+Z to background the session
     sessions     // list of existing sessions
     
