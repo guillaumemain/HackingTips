@@ -42,23 +42,11 @@ NB. To differentiate singles(=inlines) from staged exploits:
 set parameters and run the exploit:
 
     unset PARAMETER_NAME   // clear one parameter value
-    
     unset all   // clear everything
-    
     setg PARAMETER_NAME VALUE   // globally set
-    
     unsetg PARAMETER_NAME
     
     exploit    // "run" also works (-z option to background the session as soon as it opens)
-   
     background   // or CTRL+Z to background the session
     sessions     // list of existing sessions
-    
     session -i SESSION_ID    // get back to the session
-    
-
-
-
-
-
-
