@@ -59,6 +59,12 @@ NB. find generates errors. We can redirect them to /dev/null
     
     find / -perm -u=s -type f 2>/dev/null  // Find files with the SUID bit, which allows us to run the file with a higher privilege level than the current user. 
     
-    
-    
-    
+
+-------------------
+## Automated Enumeration Tools
+
+[LinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS)
+[LinEnum](https://github.com/rebootuser/LinEnum)
+[LES (Linux Exploit Suggester)](https://github.com/mzet-/linux-exploit-suggester)
+[Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration)
+[Linux Priv Checker](https://github.com/linted/linuxprivchecker)
