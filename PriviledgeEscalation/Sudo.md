@@ -4,7 +4,7 @@
     
 https://gtfobins.github.io/ : provides information on how any program, on which you may have sudo rights, can be used.
 
-### leverage application functions
+### leverage application functions
 
 Some applications can leak information leveraging a function of the application.
 
@@ -46,5 +46,5 @@ Then run it:
 
 
 
--------------
+------------------
 ## 
