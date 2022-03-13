@@ -23,16 +23,26 @@ Can be {name}-assets, {name}-www, {name}-public, {name}-private, etc.
 
 
 
+
+
 ------------------
-## Automated discovery
-
-**wordlists**: https://github.com/danielmiessler/SecLists
 
 
-**[ffuf](https://github.com/ffuf/ffuf)**: fast web fuzzer written in Go
+## Subdomain discovery
 
-    ffuf -u example.com -w wordlist.txt
 
-**gobuster** (or **dirb**: brute-forcing web directories
+### SSL/TLS certificates
+
+SSL (Secure Sockets layer) / TLS (Transport Layer Security) certificates are created for a domain by a CA (Certificate Authority). CAs take part in "CT logs" (Certificatio Transparency), which are made publibly available. Can be used to discover subdomains:
+- https://crt.sh
+- https://transparencyreport.google.com/https/certificates
+
+### wordlists
+https://github.com/danielmiessler/SecLists
+
+
+### gobuster and dirb
+
+brute-forcing web directories
     
     gobuster -u example.com -w wordlist.txt
