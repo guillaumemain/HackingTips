@@ -18,7 +18,9 @@ Automate the subdomain discovery
     
     
 ----------
-## ffuf (good tutorial: https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html)
+## ffuf
+
+(good tutorial: https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html)
 Subdomain discovery from wordlist
 
     ffuf -w wordlist.txt -u fuzzed_url.com -c // -c for color, -v for verbose 
