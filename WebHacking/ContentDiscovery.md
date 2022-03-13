@@ -1,4 +1,4 @@
-## Manual discovery
+## Manual discovery
 
 * robots.txt: document that tells search engines which pages they are and aren't allowaed to show on their search engine results
 
@@ -24,7 +24,8 @@ Can be {name}-assets, {name}-www, {name}-public, {name}-private, etc.
 
 
 ------------------
-## Automated discovery
+## Automated discovery
+
 **wordlists**: https://github.com/danielmiessler/SecLists
 
 
