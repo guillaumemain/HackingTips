@@ -30,6 +30,11 @@ Can be {name}-assets, {name}-www, {name}-public, {name}-private, etc.
 
 ## Subdomain discovery
 
+### Search engines
+    
+    -site:www.example.com
+    -site:*.example.com
+    
 
 ### SSL/TLS certificates
 
