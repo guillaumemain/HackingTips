@@ -34,13 +34,3 @@ Example:
        -u http://10.10.114.80/customers/login
        -fc 200   // checks for HTTP status codes other than 200 ("Everything is OK")
       
- 
- 
- 
-filter flags:
-
-  -fc     // filter on content length
-  -fl     // filter on number of lines in response
-  -fw     // filter words 
-
-  -d      // specifies the data we are send, with F
