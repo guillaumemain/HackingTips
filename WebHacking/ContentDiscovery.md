@@ -1,3 +1,5 @@
+## Manual discovery
+
 * robots.txt: document that tells search engines which pages they are and aren't allowaed to show on their search engine results
 
 * favicon (small icon displayed in browser's address bar): can give a clue of the framework being used. md5 hash value of some favicons: https://wiki.owasp.org/index.php/OWASP_favicon_database
@@ -19,12 +21,17 @@
 * http(s)://{name}.s3.amazonaws.com. S3 buckets allows people to save files and static website content accessible over HTTP(S). The owner can set access permissions.
 Can be {name}-assets, {name}-www, {name}-public, {name}-private, etc.
 
-* automated discovery tools:
-  * wordlists: https://github.com/danielmiessler/SecLists
-  * ffuf:
-  * dirb:
-  * gobuster: brute-forcing web directories
-  
-Usage
+
+
+------------------
+## Automated discovery
+**wordlists**: https://github.com/danielmiessler/SecLists
+
+
+**[ffuf](https://github.com/ffuf/ffuf)**: fast web fuzzer written in Go
+
+    ffuf -u example.com -w wordlist.txt
+
+**gobuster** (or **dirb**: brute-forcing web directories
     
     gobuster -u example.com -w wordlist.txt
