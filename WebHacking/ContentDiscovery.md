@@ -40,6 +40,12 @@ SSL (Secure Sockets layer) / TLS (Transport Layer Security) certificates are cre
 ### wordlists
 https://github.com/danielmiessler/SecLists
 
+## Sublist3r
+Automate the subdomain discovery
+
+    sublist3r -d kali.org -t 3 -e bing    // Search for subdomains of kali.org (-d kali.org) using the Bing search engine (-e bing) with 3 threads (-t 3)
+    
+
 
 ### gobuster and dirb
 
