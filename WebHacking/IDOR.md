@@ -8,8 +8,16 @@ Find IDOR in Hashes: https://crackstation.net/
 
 If the user ID cannot be detected using the above methods, create two accounts and swap the IDs.
 
+
+
+## Inclusion vulnerabilities
+
+- Local File Inclusion (LFI)
+- Remote File Inclusion (RFI)
+- Directory traversal
+
 ------------------
-## Path traversal
+### Path traversal
 Common files useful to access on linux machine:
 - /etc/issue: contains a message or system identification to be printed before the login prompt
 - /etc/profile: controls system-wide default variables
@@ -28,4 +36,7 @@ On windows:
 The functions that causes path traversal vulnerabilities in PHP is: file_get_contents
 
 --------------------
-## Local File Inclusion (LFI)
+### Local File Inclusion (LFI)
+
+
+
