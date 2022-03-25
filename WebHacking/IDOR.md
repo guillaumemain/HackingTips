@@ -1,4 +1,4 @@
-## IDOR
+## IDOR
 
 Insecure Direct Object Reference: it is a type of access control vulnerability.
 
